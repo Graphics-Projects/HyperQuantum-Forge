@@ -36,19 +36,3 @@ Welcome to **HyperQuantum Engine**, a state-of-the-art graphics engine crafted f
 - Texture loading and manipulation with multiple format support.  
 
 ---
-
-## Directory Structure  
-
-HyperQuantum/#
-├── Core/ # Core engine systems (windowing, input, timing) 
-├── Rendering/ # Rendering pipeline and shaders 
-├── Physics/ # Physics simulation components 
-├── Sound/ # Audio engine and 3D sound 
-├── Resources/ # Resource management (textures, models, shaders) 
-├── Buffers/ # OpenGL buffer management (VBO, VAO, EBO) 
-├── UI/ # ImGui and custom UI systems 
-├── Utility/ # Math utilities, logging, and helpers 
-├── ThirdParty/ # External libraries and dependencies 
-├── Docs/ # Documentation 
-├── Sandbox/ # Sample projects and demos 
-├── Tests/ # Unit and integration tests
