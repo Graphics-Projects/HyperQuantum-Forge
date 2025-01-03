@@ -1,49 +1,54 @@
-HyperQuantum Engine
-HyperQuantum Engine is a cutting-edge graphics engine designed for creating immersive and visually stunning real-time 3D applications. Built with performance and modularity in mind, this engine empowers developers to craft breathtaking graphics experiences, whether for games, simulations, or virtual reality.
+# HyperQuantum Engine  
 
-Features
-Modern Rendering: Advanced OpenGL/Vulkan support with physically-based rendering (PBR) and real-time lighting/shadowing techniques.
-Entity-Component System (ECS): Efficient and flexible entity management using an intuitive ECS architecture.
-Powerful Editor Tools: Integrated UI for scene editing, material creation, and debugging, inspired by industry-leading engines.
-Cross-Platform: Build once, run anywhere — support for Windows, macOS, and Linux.
-Robust Physics: Seamless integration of a physics engine for realistic interactions and dynamics.
-Scripting Support: Extend functionality with Lua, Python, or custom scripting APIs.
-High-Quality Assets: Native support for popular formats via Assimp, FreeType, and other third-party tools.
-Optimized Performance: Leveraging multi-threading, GPU acceleration, and efficient resource management.
-Customizable Framework: Modular structure enabling easy integration and extension of core features.
-Directory Structure
-mathematica
-Copy code
-HyperQuantum/
-├── Core/
-├── Rendering/
-├── Physics/
-├── UI/
-├── Sound/
-├── Resources/
-├── Buffers/
-├── Utility/
-├── ThirdParty/
-├── Docs/
-├── Sandbox/
-├── Tests/
-Getting Started
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/HyperQuantum.git
-cd HyperQuantum
-Build the engine:
-Follow the Build Instructions.
-Explore the sandbox:
-Check out the Sandbox folder to start creating scenes.
-Contribution
-Contributions are welcome! Please check the CONTRIBUTING.md for guidelines.
+Welcome to **HyperQuantum Engine**, a state-of-the-art graphics engine crafted for building immersive, high-performance real-time 3D applications. This engine is designed with modularity, scalability, and developer ease-of-use in mind, enabling the creation of everything from visually stunning games to complex simulations.  
 
-License
-HyperQuantum Engine is released under the MIT License. See LICENSE for details.
+---
 
-Join the Community
-Discord: Join our community for support and updates.
-Twitter: Follow us for news and announcements.
-Elevate your projects with HyperQuantum Engine — where performance meets innovation. 🚀
+## Key Features  
+
+### Rendering  
+- Physically-Based Rendering (PBR) for realistic visuals.  
+- Real-time dynamic lighting and shadowing.  
+- Post-processing effects such as bloom, HDR, and SSAO.  
+- Optimized support for large-scale scenes and high-poly models.  
+
+### Architecture  
+- **Entity-Component-System (ECS)**: Efficient and extensible architecture for managing game objects and behaviors.  
+- Modular design, making it easy to integrate and extend features.  
+- Native support for OpenGL (Vulkan planned in future updates).  
+
+### Platform Support  
+- Cross-platform compatibility: Build for Windows, macOS, and Linux.  
+- Comprehensive support for multiple resolutions and aspect ratios.  
+
+### Physics & Sound  
+- Integrated physics engine for realistic object interactions and dynamics.  
+- Sound system with 3D audio spatialization.  
+
+### Developer Tools  
+- Powerful debugging tools for real-time performance monitoring and resource analysis.  
+- Editor support for ImGui-based UI and scene management.  
+- Scripting integration (Lua/Python) for extending engine functionality.  
+
+### Asset Support  
+- Supports common 3D file formats via Assimp.  
+- Font rendering with FreeType for dynamic text creation.  
+- Texture loading and manipulation with multiple format support.  
+
+---
+
+## Directory Structure  
+
+HyperQuantum/#
+├── Core/ # Core engine systems (windowing, input, timing) 
+├── Rendering/ # Rendering pipeline and shaders 
+├── Physics/ # Physics simulation components 
+├── Sound/ # Audio engine and 3D sound 
+├── Resources/ # Resource management (textures, models, shaders) 
+├── Buffers/ # OpenGL buffer management (VBO, VAO, EBO) 
+├── UI/ # ImGui and custom UI systems 
+├── Utility/ # Math utilities, logging, and helpers 
+├── ThirdParty/ # External libraries and dependencies 
+├── Docs/ # Documentation 
+├── Sandbox/ # Sample projects and demos 
+├── Tests/ # Unit and integration tests
